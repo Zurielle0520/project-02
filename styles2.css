@@ -1,0 +1,54 @@
+.Marc {
+    color: #0000ff;
+    margin-top: 1.5in;
+    margin-left: 1.5in;
+    margin-right: 21cm;
+    Font-weight: 300px
+}
+
+p {
+    color: black;
+    margin-top: 0;
+    margin-left: 1.5in;
+    margin-right: 21cm;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.bbb {
+    color: #0000ff;
+    background-color: #ff96ff;
+    margin-top: 01cm;
+    margin-left: 1.5in;
+    margin-right: 26cm;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 1cm;
+}
+
+.ccc {
+    color: #0000ff;
+    background-color: #ff96ff;
+    margin-top: 0;
+    margin-left: 1.5in;
+    margin-right: 26cm;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 1cm;
+}
+
+.aaa {
+    color: #0000ff;
+    background-color: #ff96ff;
+    margin-top: 0;
+    margin-left: 1.5in;
+    margin-right: 26cm;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 1cm;
+}
+
+body {background-color: rgb(182, 209, 255);}

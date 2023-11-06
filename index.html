@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Facebonk - Social Media</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
+
 <body>
-    <h1>Hello World!</h1>
+    <header>
+        <h1>Welcome to Facebonk</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Friends</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for friends">
+            <button>Search</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="feed">
+            <!-- Post and content feed here -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.15752-9/387532353_346465374395613_4451144158676939015_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFafjRMtpCmtBqpxpS-XcS7VQgKUyhhwfZVCApTKGHB9o3hFVPHTqDBYNwhkR6GlFuak--Cm7q-2ByCjpKXwp_n&_nc_ohc=MdPl5lAuzVUAX99WmFg&_nc_ht=scontent.fmnl3-4.fna&oh=03_AdT_XunLpmz1WRn0twwphjbbXhh1bkyx8W3d2l8PeTrYHA&oe=656D89C9" alt="User Profile Picture">
+                    <h2>User Name</h2>
+                </div>
+                <div class="post-content">
+                    <p>Zurie Pogi</p>
+                    <!-- Add more content, images, comments, etc. here -->
+                </div>
+            </div>
+        </section>
+
+        <section class="profile">
+            <!-- User profile information -->
+            <div class="profile-info">
+                <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.15752-9/387532353_346465374395613_4451144158676939015_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFafjRMtpCmtBqpxpS-XcS7VQgKUyhhwfZVCApTKGHB9o3hFVPHTqDBYNwhkR6GlFuak--Cm7q-2ByCjpKXwp_n&_nc_ohc=MdPl5lAuzVUAX99WmFg&_nc_ht=scontent.fmnl3-4.fna&oh=03_AdT_XunLpmz1WRn0twwphjbbXhh1bkyx8W3d2l8PeTrYHA&oe=656D89C9" alt="User Profile Picture">
+                <h2>User Name</h2>
+                <p>Email: user@example.com</p>
+                <p>Location: City, Country</p>
+                <button>Edit Profile</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content here, e.g., copyright information or links -->
+        <p>&copy; 2023 Facebonk. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
